@@ -7,7 +7,7 @@ body, html{
     height: 100vh; 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 25vh 1fr 1fr 1vh 1fr;
+    grid-template-rows: 25vh 1fr 1fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -75,6 +75,15 @@ body, html{
     /* height: 300px; */
 }
 
+.reason-text h1{
+    margin: 0;
+}
+
+.reason-text h2{
+    margin-bottom: 0;
+    text-align: center;
+}
+
 .reason{
      overflow-y: scroll; 
      text-align: center;
@@ -92,4 +101,8 @@ body, html{
   .hobbies-text { border: 2px solid black;
     grid-area: hobbies-text; 
 }
-  
+
+#hobby-pic{
+    width: 100%;
+    height: auto;
+}
