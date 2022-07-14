@@ -32,8 +32,20 @@ body, html{
 }
   
   .prof-pic { 
-    border: 2px solid black;
+    border: 50px solid black;
     grid-area: prof-pic; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prof-pic h1{
+    font-size:medium
+}
+
+#profile-pic {
+    width: 100%;
+    height: auto;
 }
   
   .prof-info { 
