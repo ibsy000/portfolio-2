@@ -1,0 +1,51 @@
+.container { 
+    height: 100vh; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "hero-image hero-image hero-image hero-image hero-image hero-image hero-image"
+      ". prof-pic prof-pic prof-info prof-info prof-info ."
+      ". reason-text reason-text reason-text reason-pic reason-pic ."
+      ". hobbies hobbies hobbies-text hobbies-text hobbies-text ."
+      "footer footer footer footer footer footer footer";
+  }
+  
+  .hero-image { 
+    border: 2px solid black;
+    grid-area: hero-image; 
+}
+  
+  .prof-pic { 
+    border: 2px solid black;
+    grid-area: prof-pic; 
+}
+  
+  .prof-info { 
+    border: 2px solid black;
+    grid-area: prof-info; 
+}
+  
+  .reason-pic { 
+    border: 2px solid black;
+    grid-area: reason-pic; 
+}
+  
+  .reason-text { border: 2px solid black;
+    grid-area: reason-text; 
+}
+  
+  .footer { border: 2px solid black;
+    grid-area: footer; 
+}
+  
+  .hobbies { border: 2px solid black;
+    grid-area: hobbies; 
+}
+  
+  .hobbies-text { border: 2px solid black;
+    grid-area: hobbies-text; 
+}
+  
